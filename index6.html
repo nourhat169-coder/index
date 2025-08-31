@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+   
+   <div class="w-75 mt-5  m-auto">
+    <label for="NameProduct">Name Product ::</label>
+    <input type="text" class="form-control my-3" id="NameProduct">
+    <label for="PriceProduct">Price Product</label>
+    <input type="text" class="form-control my-3 " id="PriceProduct">
+    <label for="Category">Category</label>
+    <input type="text" class="form-control my-3 " id="Category">
+    <label for="Model">Model</label>
+    <input type="text" class="form-control my-3 " id="Model">
+    <button onclick="addproduct()" class="btn btn-primary ">AddProduct</button>
+
+     
+     <table class="table mt-5 text-center table-responsive table-striped ">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">NameProduct</th>
+      <th scope="col">Price</th>
+      <th scope="col">Category</th>
+      <th scope="col">Model</th>
+      <th scope="col">Delete</th>
+
+    </tr>
+  </thead>
+  <tbody id="t-body">
+
+    
+    
+    
+  </tbody>
+</table>
+   </div>
+
+  
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
